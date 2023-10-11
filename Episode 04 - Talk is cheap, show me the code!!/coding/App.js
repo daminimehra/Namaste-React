@@ -797,7 +797,7 @@ const Body =()=>{
       <div className="res-container">
      {restaurantList.map((info)=>{
       return(
-        <RestaurantCard key={info.id} restaurantList={info} />
+       <RestaurantCard key={info.info.id} restaurantList={info} />
       )
      })}
       </div>
